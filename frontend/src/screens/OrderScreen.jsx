@@ -254,7 +254,7 @@ const OrderScreen = () => {
                                         <ListGroup.Item>
                                             <strong>For queries and information about your order, contact us at:</strong>
                                             <Link
-                                                to={`https://web.whatsapp.com/send?phone=${encodeURIComponent('923043332199')}`}
+                                                to={`whatsapp://send?phone=${encodeURIComponent('923043332199')}`}
                                                 target='_blank'
                                                 rel='noopener noreferrer'
                                                 className='d-flex mt-2'
@@ -264,7 +264,7 @@ const OrderScreen = () => {
                                                         alt="WhatsApp Icon"
                                                         className="whatsapp-icon"
                                                     />
-                                                    <strong>+92 304 3332199</strong>
+                                                    <strong>+92-304-3332199</strong>
                                             </Link>
                                             <Link
                                                 to='mailto:contactproshoppk@gmail.com'
